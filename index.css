@@ -55,7 +55,6 @@ html, body
 	margin-right: auto;
 	margin-top: 3rem;
 }
-
 #content
 {
 	font-size: 0;
@@ -70,7 +69,6 @@ html, body
 	padding: 0;
 	border: 0;
 }
-
 #content img
 {
 	max-width: 80vw;
