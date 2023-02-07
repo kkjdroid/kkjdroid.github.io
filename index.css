@@ -13,7 +13,7 @@ html, body
 }
 #sidebar
 {
-	background: rgba(192, 32, 32, 1);
+	background: rgba(32, 32, 32, 1);
 	width: 20vw;
 	height: 100vh;
 	position: fixed;
@@ -22,8 +22,6 @@ html, body
 	z-index: 100;
 	font-size: 5vmin;
 	display: grid;
-	grid-template-columns: repeat(5, auto);
-	grid-template-rows: repeat(5, auto);
 	align-items: center;
 	row-gap: 0;
 }
@@ -66,14 +64,20 @@ div#resume
 {
 	grid-row: 3;
 }
-div#youtube
+
+div#scripts
 {
 	grid-row: 4;
 }
 
-div.color
+div#youtube
 {
 	grid-row: 5;
+}
+
+div.color
+{
+	grid-row: 6;
 	height: 4vw;
 	align-self: end;
 }
@@ -123,7 +127,6 @@ div#sidebar > div#gray
 	bottom: 0;
 	right: 0;
 	display: grid;
-	grid-template-columns: repeat(7, auto);
 	grid-template-rows: 80% 20%;
 	grid-gap: 0;
 	align-items: center;
