@@ -74,7 +74,6 @@ div#youtube
 div.color
 {
 	grid-row: 5;
-	width: 4vw;
 	height: 4vw;
 	align-self: end;
 }
@@ -117,31 +116,34 @@ div#sidebar > div#gray
 #content
 {
 	font-size: 0;
-	width: 80vw;
+	max-width: 80vw;
 	position: absolute;
 	top: 0;
 	left: 20vw;
 	bottom: 0;
 	right: 0;
 	display: grid;
-	grid-template-columns: repeat(5, auto);
-	grid-template-rows: repeat(5, auto);
-	row-gap: 0;
+	grid-template-columns: repeat(7, auto);
+	grid-template-rows: 80% 20%;
+	grid-gap: 0;
+	align-items: center;
+	place-items: center;
 }
 
 #content > #main_image
 {
 	grid-row: 1;
-	grid-column: 1 / 6;
-	max-width: 80vw;
+	grid-column: 1 / 8;
+	max-width: 100%;
 	max-height: 100%;
 }
 
 #content img
 {
-	max-width: 10vw;
-	max-height: 100%;
+	max-width: 90%;
+	max-height: 90%;
 	grid-row: 2;
+	display: block;
 }
 
 
