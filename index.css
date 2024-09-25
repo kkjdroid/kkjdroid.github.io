@@ -131,6 +131,7 @@ div#sidebar > div#gray
 	grid-gap: 0;
 	align-items: center;
 	place-items: center;
+	background-color: rgba(48, 48, 48, 1);
 }
 
 #content > #main_image
