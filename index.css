@@ -128,15 +128,17 @@ div#sidebar > div#gray
 	right: 0;
 	display: grid;
 	grid-template-rows: 80% 20%;
+	grid-template-columns: 35% repeat(3, 1fr);
 	grid-gap: 0;
 	align-items: center;
 	place-items: center;
+	font-family: sans-serif;
 }
 
 #content > #main_image
 {
 	grid-row: 1;
-	grid-column: 1 / 8;
+	grid-column: 2 / 5;
 	max-width: 100%;
 	max-height: 100%;
 }
@@ -149,4 +151,25 @@ div#sidebar > div#gray
 	display: block;
 }
 
+#content > #description
+{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
 
+h1
+{
+	font-size: 24pt;
+	font-weight: bold;
+}
+h2
+{
+	font-size: 16pt;
+	font-weight: bold;
+}
+p
+{
+	font-size: 12pt;
+}
